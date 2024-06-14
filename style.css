@@ -80,6 +80,19 @@
     filter: grayscale(1);    
 }
 
+.ex-7-img:hover {
+    filter: grayscale(1);  
+    transition: 5s;  
+}
+
+.ex-8-img:hover{
+    filter: grayscale(1); 
+    transition: 5s;
+    border-radius: 30px;
+    width: 700px;
+}
+
+
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
@@ -93,6 +106,18 @@
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover {
+    margin: 50px 100px;
+    width: 200px;
+    transition: 5s;
+    border-radius: 20px;
+    filter: opacity(0.3);
+    filter: sepia(1);
+}
+
+
+
 .ex-10-icon {
     font-size: 60px;
 }
