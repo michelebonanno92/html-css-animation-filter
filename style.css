@@ -2,7 +2,7 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
-    transition: 6s; 
+    transition: 5s; 
 }
 
 .ex-1-square:hover {
@@ -19,10 +19,9 @@
     transition: 7s;
 }
 
-.ex-2-square:hover {
-    width: 800px;
-    height: 100px;
-    background: red;
+.ex-2-square:active {
+    width:100%
+  
 }
 
 
@@ -34,10 +33,8 @@
 }
 
 .ex-3-square:hover {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: red;
+  border-radius: 100%;
+   
 }
 
 
@@ -54,20 +51,23 @@
 }
 
 
-.ex-5-square {
+ .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
-}
+} 
+
+
+
 .ex-5-square:hover {
     margin: 40px;
     width: 80px;
     height: 80px;
     background: red;
-}
+}  */
 
-.ex-5-square:active {
+ .ex-5-square:active {
     margin: 20px;
     width: 40px;
     height: 40px;
@@ -77,7 +77,8 @@
 
 
 .ex-6-img:hover {
-    filter: grayscale(1);    
+    filter: grayscale(1);   
+
 }
 
 .ex-7-img:hover {
@@ -121,6 +122,8 @@
 .ex-10-icon {
     font-size: 60px;
 }
+
+
 
 
 
